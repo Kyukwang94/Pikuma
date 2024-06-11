@@ -1,0 +1,20 @@
+﻿  Application.cpp
+  Force.cpp
+  Force.h
+C:\Users\dlrbr\source\repos\Pikuma\2dphysics\src\Application.h(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'src/Application.cpp')
+  
+C:\Users\dlrbr\source\repos\Pikuma\2dphysics\src\Application.cpp(65,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\dlrbr\source\repos\Pikuma\2dphysics\src\Application.cpp(65,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\dlrbr\source\repos\Pikuma\2dphysics\src\Application.cpp(83,21): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\dlrbr\source\repos\Pikuma\2dphysics\src\Application.cpp(89,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\dlrbr\source\repos\Pikuma\2dphysics\src\Application.cpp(92,61): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\dlrbr\source\repos\Pikuma\2dphysics\src\Application.cpp(110,59): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\dlrbr\source\repos\Pikuma\2dphysics\src\Application.cpp(115,44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\dlrbr\source\repos\Pikuma\2dphysics\src\Application.cpp(120,58): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\dlrbr\source\repos\Pikuma\2dphysics\src\Application.cpp(125,44): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\dlrbr\source\repos\Pikuma\2dphysics\src\Application.cpp(140,74): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\dlrbr\source\repos\Pikuma\2dphysics\src\Application.cpp(140,52): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+C:\Users\dlrbr\source\repos\Pikuma\2dphysics\src\Physics\Force.cpp(30,1): warning C4715: 'Force::GenerateFrictionForce': not all control paths return a value
+  2DPhysics.vcxproj -> C:\Users\dlrbr\source\repos\Pikuma\2dphysics\Debug\2DPhysics.exe

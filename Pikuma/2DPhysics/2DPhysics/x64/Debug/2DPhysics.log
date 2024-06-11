@@ -1,0 +1,45 @@
+﻿SDL2_gfxPrimitives.obj : error LNK2019: unresolved external symbol SDL_atan2 referenced in function thickLineRGBA
+SDL2_gfxPrimitives.obj : error LNK2019: unresolved external symbol SDL_cos referenced in function thickLineRGBA
+SDL2_gfxPrimitives.obj : error LNK2019: unresolved external symbol SDL_fabs referenced in function thickLineRGBA
+SDL2_gfxPrimitives.obj : error LNK2019: unresolved external symbol SDL_sqrt referenced in function thickLineRGBA
+SDL2_gfxPrimitives.obj : error LNK2019: unresolved external symbol SDL_CreateRGBSurface referenced in function characterRGBA
+SDL2_rotozoom.obj : error LNK2001: unresolved external symbol SDL_CreateRGBSurface
+SDL2_gfxPrimitives.obj : error LNK2019: unresolved external symbol SDL_FreeSurface referenced in function characterRGBA
+SDL2_rotozoom.obj : error LNK2001: unresolved external symbol SDL_FreeSurface
+SDL2_gfxPrimitives.obj : error LNK2019: unresolved external symbol SDL_CreateTextureFromSurface referenced in function characterRGBA
+SDL2_gfxPrimitives.obj : error LNK2019: unresolved external symbol SDL_SetTextureColorMod referenced in function characterRGBA
+SDL2_gfxPrimitives.obj : error LNK2019: unresolved external symbol SDL_SetTextureAlphaMod referenced in function characterRGBA
+SDL2_gfxPrimitives.obj : error LNK2019: unresolved external symbol SDL_SetTextureBlendMode referenced in function texturedPolygonMT
+SDL2_gfxPrimitives.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function _ellipseRGBA
+Graphics.obj : error LNK2001: unresolved external symbol SDL_SetRenderDrawColor
+SDL2_gfxPrimitives.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawBlendMode referenced in function _ellipseRGBA
+SDL2_gfxPrimitives.obj : error LNK2019: unresolved external symbol SDL_RenderDrawPoint referenced in function pixel
+SDL2_gfxPrimitives.obj : error LNK2019: unresolved external symbol SDL_RenderDrawLine referenced in function hline
+SDL2_gfxPrimitives.obj : error LNK2019: unresolved external symbol SDL_RenderDrawLines referenced in function polygon
+SDL2_gfxPrimitives.obj : error LNK2019: unresolved external symbol SDL_RenderDrawRect referenced in function rectangleRGBA
+SDL2_gfxPrimitives.obj : error LNK2019: unresolved external symbol SDL_RenderFillRect referenced in function boxRGBA
+SDL2_gfxPrimitives.obj : error LNK2019: unresolved external symbol SDL_RenderCopy referenced in function _HLineTextured
+SDL2_gfxPrimitives.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function texturedPolygonMT
+Graphics.obj : error LNK2001: unresolved external symbol SDL_RenderPresent
+SDL2_gfxPrimitives.obj : error LNK2019: unresolved external symbol SDL_DestroyTexture referenced in function gfxPrimitivesSetFont
+SDL2_imageFilter.obj : error LNK2019: unresolved external symbol SDL_HasMMX referenced in function SDL_imageFilterMMXdetect
+SDL2_rotozoom.obj : error LNK2019: unresolved external symbol SDL_SetError referenced in function rotateSurface90Degrees
+SDL2_rotozoom.obj : error LNK2019: unresolved external symbol SDL_LockSurface referenced in function rotateSurface90Degrees
+SDL2_rotozoom.obj : error LNK2019: unresolved external symbol SDL_UnlockSurface referenced in function rotateSurface90Degrees
+SDL2_rotozoom.obj : error LNK2019: unresolved external symbol SDL_GetColorKey referenced in function _colorkey
+SDL2_rotozoom.obj : error LNK2019: unresolved external symbol SDL_UpperBlit referenced in function rotozoomSurfaceXY
+Application.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function "public: void __cdecl Application::Input(void)" (?Input@Application@@QEAAXXZ)
+Graphics.obj : error LNK2019: unresolved external symbol SDL_GetCurrentDisplayMode referenced in function "public: static bool __cdecl Graphics::OpenWindow(void)" (?OpenWindow@Graphics@@SA_NXZ)
+Graphics.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function "public: static bool __cdecl Graphics::OpenWindow(void)" (?OpenWindow@Graphics@@SA_NXZ)
+Graphics.obj : error LNK2019: unresolved external symbol SDL_DestroyWindow referenced in function "public: static void __cdecl Graphics::CloseWindow(void)" (?CloseWindow@Graphics@@SAXXZ)
+Graphics.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function "public: static bool __cdecl Graphics::OpenWindow(void)" (?OpenWindow@Graphics@@SA_NXZ)
+Graphics.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function "public: static void __cdecl Graphics::ClearScreen(unsigned int)" (?ClearScreen@Graphics@@SAXI@Z)
+Graphics.obj : error LNK2019: unresolved external symbol SDL_RenderCopyEx referenced in function "public: static void __cdecl Graphics::DrawTexture(int,int,int,int,float,struct SDL_Texture *)" (?DrawTexture@Graphics@@SAXHHHHMPEAUSDL_Texture@@@Z)
+Graphics.obj : error LNK2019: unresolved external symbol SDL_DestroyRenderer referenced in function "public: static void __cdecl Graphics::CloseWindow(void)" (?CloseWindow@Graphics@@SAXXZ)
+Graphics.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function "public: static bool __cdecl Graphics::OpenWindow(void)" (?OpenWindow@Graphics@@SA_NXZ)
+Graphics.obj : error LNK2019: unresolved external symbol SDL_Quit referenced in function "public: static void __cdecl Graphics::CloseWindow(void)" (?CloseWindow@Graphics@@SAXXZ)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\SDL2\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\SDL2\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\SDL2\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\dlrbr\source\repos\Pikuma\2DPhysics\x64\Debug\2DPhysics.exe : fatal error LNK1120: 37 unresolved externals
